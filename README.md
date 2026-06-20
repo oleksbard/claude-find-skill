@@ -8,6 +8,8 @@ A Claude Code skill that **finds skills you don't have yet.**
 
 Ask "is there a skill for X?" and it searches the official plugin marketplace, GitHub, and curated awesome-lists, throws out anything you've already installed, and hands you the **top 5 matches with links** — ranked by relevance, then popularity. It only recommends. It never installs or touches your system.
 
+> Built to the standard Agent Skill format — a folder with a `SKILL.md` and YAML frontmatter — as documented in Anthropic's [anthropics/skills](https://github.com/anthropics/skills) repo.
+
 ## Install
 
 Copy the skill into your personal (user-level) skills dir:
