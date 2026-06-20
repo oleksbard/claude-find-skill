@@ -31,6 +31,56 @@ Just ask, in any session:
 /find-skill what skills exist for screenshot testing?
 ```
 
+## Example
+
+```sh
+/find-skill UI_UX design skills  
+
+⏺ All five verified as real skills. Here's your shortlist for UI/UX design — community skills you don't have, each confirmed to contain a SKILL.md:
+
+  baoyu-design — Run "Claude Design" locally: turn a request into polished UI mockups, prototypes, wireframes & decks as self-contained HTML
+    Source: GitHub · ★ 1,655 · pushed 2026-06
+    Link: https://github.com/JimLiu/baoyu-design
+    Why: The most general-purpose pick — full design-artifact workflow (mockups→prototypes→decks) without needing claude.ai/design; tuned for Opus 4.8.
+    Get it: git clone https://github.com/JimLiu/baoyu-design  (not run for you)
+
+  nothing-design-skill — Generate UI in the "Nothing" design language: monochrome, Swiss typography, industrial
+    Source: GitHub · ★ 2,500 · pushed 2026-04
+    Link: https://github.com/dominikmartn/nothing-design-skill
+    Why: Most-starred design skill out there; reach for it when you want one strong, opinionated aesthetic rather than generic output.
+    Get it: git clone https://github.com/dominikmartn/nothing-design-skill  (not run for you)
+
+  hue — Learns any brand (URL, name, or screenshot) and turns it into a complete design system: color tokens, type, spacing, components
+    Source: GitHub · ★ 715 · pushed 2026-06
+    Link: https://github.com/dominikmartn/hue
+    Why: The "UX consistency" angle — every UI your assistant builds matches a defined brand system. Pairs well with a builder skill.
+    Get it: git clone https://github.com/dominikmartn/hue  (not run for you)
+
+  styleseed — Design-judgment engine: 74 rules, 48 components, 7 brand skins (Toss/Stripe/Linear/Notion/Raycast/Arc/Vercel), motion system, 15 /ss-* skills + a11y audits
+    Source: GitHub · ★ 554 · pushed 2026-06
+    Link: https://github.com/bitjaru/styleseed
+    Why: The most comprehensive toolkit here — teaches design judgment (scaffold, tokens, motion, accessibility, review) rather than one look. Anti-"AI slop."
+    Get it: git clone https://github.com/bitjaru/styleseed  (not run for you)
+
+  refactoring-ui-plugin — 10 design-review skills based on Refactoring UI (visual hierarchy, typography scale, spacing, contrast, empty states…)
+    Source: GitHub · ★ 173 · pushed 2026-04
+    Link: https://github.com/gnurio/refactoring-ui-plugin
+    Why: Complements the builders above — a critique lens to evaluate and fix existing UI, not just generate it.
+    Get it: git clone https://github.com/gnurio/refactoring-ui-plugin  (not run for you)
+
+  ---
+  Already covered — not listed as new: You have artifact-design active (Anthropic's distinctive-frontend design skill). The marketplace's frontend-design (829k installs) is the same capability, so I left it off.
+
+  Dropped by the verify step: plugin87/ux-ui-agent-skills (227★) looked strong but has no SKILL.md — it ships as slash-command .md files, not skill format. Usable, but not a drop-in skill.
+
+  One adjacent option (different category): if you design in Figma, figma@claude-plugins-official (136k installs) does design-token extraction and design→code — /plugin install figma@claude-plugins-official.
+  It's a tool integration, not a design-craft skill, so it's outside the top 5.
+
+  ▎ GitHub searched via REST API + WebFetch — run gh auth login for sharper, code-level (SKILL.md) results.
+  ▎ Curated awesome-list (hesreallyhim/awesome-claude-code) skipped — its index is mid-reconstruction.
+
+```
+
 ## Sharper GitHub results (optional)
 
 GitHub *code* search needs auth. Without it the skill falls back to the public API and web search — still works. For the best results:
