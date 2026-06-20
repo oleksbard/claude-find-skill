@@ -98,5 +98,5 @@ gh auth login
 ## Uninstall
 
 ```sh
-rm ~/.claude/skills/find-skill
+rm -rf ~/.claude/skills/find-skill
 ```
