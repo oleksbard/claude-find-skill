@@ -13,7 +13,7 @@ Ask "is there a skill for X?" and it searches the official plugin marketplace, G
 Copy the skill into your personal (user-level) skills dir:
 
 ```sh
-git clone https://github.com/oleksabard/claude-find-skill.git
+git clone https://github.com/oleksbard/claude-find-skill.git
 cp -R claude-find-skill/find-skill ~/.claude/skills/find-skill
 ```
 
