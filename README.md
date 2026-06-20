@@ -100,3 +100,7 @@ gh auth login
 ```sh
 rm -rf ~/.claude/skills/find-skill
 ```
+
+## License
+
+[MIT](LICENSE) © Oleksandr Bardanov
